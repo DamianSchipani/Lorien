@@ -1,11 +1,10 @@
 /*---- HEADER ---*/
 
 header{
-    background-color: white
-    position: sticky;
-    top: 0;
-    }
-    header .info{
+        background-color: white
+        position: sticky;
+        top: 0;
+header .info{
         display: block;
         position: absolute;
         float: left;
@@ -45,4 +44,5 @@ header{
             }
         }
     }
+
 }
