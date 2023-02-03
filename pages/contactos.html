@@ -13,20 +13,69 @@
     </div>
     <div class="logo-lorien">
       <h1>Lorien</h1>
-    </div>
-      <nav>
-        <ul>
-          <li><a href="../index.html">Inicio</a></li>
-          <li>
-            <a href="./AcercaDeMi.html">Acerca de Mi</a>
-          </li>
-          <li><a href="./contactos.html">Contactos</a></li>
-          <li><a href="./productos.html">Productos</a></li>
-          <li><a href="./giftcard.html">Gift Card</a></li>
-        </ul>
+      </div>
+
+            <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand" href="../index.html">Inicio</a>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./AcercaDeMi.html"
+                  >AcercaDeMi</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./contactos.html"
+                  >Contactos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./productos.html"
+                  >Productos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./giftcard.html"
+                  >Gift Card</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-secondary" type="submit">
+                Buscar
+              </button>
+            </form>
+          </div>
+        </div>
       </nav>
+      
     </header>
     <main>
+      <h2>Estamos para lo que necesites</h2>
+      <h3>¿Tenés alguna duda? Hace click en CONSULTAS.</h3>
+      <h3>¿Querés hacer un reclamo? Contactanos a través de RECLAMOS.</h3>
+      <h3>Ayudanos a mejorar! dejanos tu SUGERENCIA.</h3>
       <section class="contactos">
         <form action="" method="" enctype="">
           <div>
@@ -42,30 +91,19 @@
             <input type="email" id="correo" />
           </div>
           <div>
-            <label for="contrasena">Contraseña</label>
-            <input type="password" id="contrasena" />
-          </div>
-          <div>
-            <h3>Genero</h3>
-            <div>
-              <label for="masculino">Masculino</label
-              ><input type="radio" name="genero" />
-              <label for="femenino">Femenino</label
-              ><input type="radio" name="genero" />
-              <label for="otro">Otro</label><input type="radio" name="genero" />
-            </div>
+            <label for="phone">Telefono</label>
+            <input type="number" name="" id="Telefono">
           </div>
           <div>
             <select name="" id="">
-              Estado Civil
-              <option value="">Casado</option>
-              <option value="">Soltero</option>
-              <option value="">Viudo</option>
+              Tipo de contacto
+              <option value="">Consultas</option>
+              <option value="">Reclamos</option>
+              <option value="">Sugerencia</option>
             </select>
           </div>
           <div>
-            <h3>¿Desea recibir el Newsletter?</h3>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <textarea name="" id="" cols="60" rows="10"></textarea>
           </div>
           <div>
             <input type="submit" />
